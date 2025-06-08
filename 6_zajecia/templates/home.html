@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strona główna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container text-center py-5">
+    <h1 class="display-4 mb-4">👋 Witaj w aplikacji <span class="text-primary">Lista zadań!</span></h1>
+    <p class="lead mb-5">Zarządzaj swoimi zadaniami szybko i wygodnie dzięki Flaskowi i Bootstrapowi.</p>
+
+    <div class="d-flex justify-content-center gap-3">
+        <a href="{{ url_for('tasks') }}" class="btn btn-success btn-lg">📋 Przejdź do listy zadań</a>
+        <a href="{{ url_for('about') }}" class="btn btn-outline-secondary btn-lg">ℹ️ O aplikacji</a>
+    </div>
+</div>
+
+</body>
+</html>
