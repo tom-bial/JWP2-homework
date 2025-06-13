@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>O aplikacji</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <div class="text-center">
+        <h1 class="display-4 mb-4">📝 Lista zadań</h1>
+        <p class="lead">To prosta aplikacja do zarządzania zadaniami, stworzona z użyciem frameworka <strong>Flask</strong>.</p>
+        <hr class="my-4">
+        <p>Dodawaj, oznaczaj jako wykonane i usuwaj zadania — wszystko z poziomu przeglądarki.</p>
+        <a href="{{ url_for('home') }}" class="btn btn-success btn-lg">🏠 Wróć do strony głównej</a>
+        <a href="{{ url_for('tasks') }}" class="btn btn-outline-secondary btn-lg">📋 Przejdź do listy zadań</a>
+    </div>
+</div>
+
+</body>
+</html>
